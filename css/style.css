@@ -365,14 +365,6 @@ template {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Museo Sans Bold-Black';
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.eot");
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .button {
   padding: 17px 30px;
   font-size: 13px;
