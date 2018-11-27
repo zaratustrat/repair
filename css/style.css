@@ -359,8 +359,16 @@ template {
 
 @font-face {
   font-family: 'Museo Sans Bold';
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCirilMuseoSansCyrl-700.eot");
   src: url("../fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirilMuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCirilMuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold-Black';
+  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.eot");
+  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-900.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -381,6 +389,14 @@ template {
 
 .button:focus {
   outline: none;
+}
+
+.input {
+  font-size: 15px;
+  line-height: 24px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
 }
 
 .header-wrap {
@@ -501,6 +517,104 @@ template {
 
 .main-advantages__img-3 {
   background-image: url("../img/main/paint-board.png");
+}
+
+.feedback {
+  padding: 94px 0;
+  background: url("../img/feedback/feedback-bg.png") no-repeat center right -40%;
+}
+
+.feedback .form {
+  max-width: 575px;
+}
+
+.feedback .form__title {
+  font-size: 24px;
+  font-family: 'Museo Sans Bold',sans-serif;
+  line-height: 35px;
+  margin-bottom: 45px;
+}
+
+.feedback .form__subtitle {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.feedback .form__input {
+  width: 270px;
+  margin-bottom: 30px;
+}
+
+.feedback .form__input:first-child {
+  margin-right: 30px;
+}
+
+.feedback .form__button {
+  padding: 28px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 31px;
+}
+
+.feedback .form__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  font-size: 15px;
+  line-height: 24px;
+  position: relative;
+  z-index: 0;
+}
+
+.feedback .form__footer:before {
+  content: '';
+  display: block;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/main/phone.png");
+  position: absolute;
+  left: 324px;
+  top: 5px;
+  z-index: 1;
+}
+
+.feedback .form__callback {
+  width: 224px;
+}
+
+.feedback .form__contacts {
+  max-width: 250px;
+}
+
+.feedback .form__callyou {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feedback .form__phone {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+*, *::after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {

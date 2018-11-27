@@ -16,8 +16,16 @@
 
 @font-face {
  font-family: 'Museo Sans Bold';
- src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-700.eot');
+ src: url('../fonts/MuseoSansCirilMuseoSansCyrl-700.eot');
  src: url('../fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCirilMuseoSansCyrl-700.woff') format('woff'), url('../fonts/MuseoSansCirilMuseoSansCyrl-700.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo Sans Bold-Black';
+ src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-900.eot');
+ src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCiril/MuseoSansCyrl-900.woff') format('woff'), url('../fonts/MuseoSansCiril/MuseoSansCyrl-900.ttf') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
