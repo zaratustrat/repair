@@ -673,15 +673,8 @@ img {
     max-width: 400px;
     margin: auto;
   }
-}
-
-@media (max-width: 576px) {
-  .container {
-    width: 320px;
-  }
-  .header__text__phone {
-    border: 1px solid red;
-    font-size: 35px;
+  .main-text__title {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
