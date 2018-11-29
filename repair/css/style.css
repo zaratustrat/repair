@@ -672,13 +672,9 @@ img {
   .main-text {
     max-width: 400px;
     margin: auto;
-    color: blue;
   }
-}
-
-@media (max-width: 576px) {
-  .container {
-    width: 320px;
+  .main-text__title {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
