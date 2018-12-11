@@ -1,6 +1,29 @@
+@media (max-width:1529px)
+  .main
+    &-image 
+      transform: scale(1.2)
+@media (max-width: 1404px) 
+  .main
+    &-image 
+      transform: scale(1.1) 
+@media (max-width: 1292px)
+  .main
+    &-image
+      transform: scale(1)           
 @media (max-width: 1199px)
   .container
-    width: 922px 
+    width: 922px
+  .main
+    &-text__title
+      margin-top: -20px
+    &-image 
+          flex-basis: 55%
+  .feedback
+    &:before
+      width: 100%
+  .form 
+      margin: auto  
+      text-align: center                   
 
 @media (max-width: 922px) 
   .container
@@ -17,8 +40,8 @@
     &-advantages__item
         margin-bottom: 15px
     &-image
-      width: 70% 
-      display: contents      
+      flex-basis: 50%
+      transform: scale(1)      
   .feedback
     padding: 0
     background: #fff
@@ -49,46 +72,52 @@
       margin: auto
       &__title
         text-align: center
+        margin-top: 10px
 @media (max-width: 576px)
   .container
     width: 319px
-    margin: auto
+    flex-direction: column
   .header
-    &-logo
-  
-    &-wrap   
-    
-    &__phone
-      width: 130px
-      font-size: 15px  
-    .button
-      display: none
-  .form
-    text-align: center
-    &__title
+    &__logo
       margin-bottom: 10px
-    &__subtitle
-      margin-bottom: 10px 
-    &__input:first-child
-      margin-right: auto
-    &__input
-      margin-bottom: 15px
-      text-align: center  
-    &__button
-      position: relative
-      margin: auto
-      width: 250px
+    &-text__contacts
+      margin: 0 0 10px 0
       text-align: center
-      margin-bottom: 30px
-    &__footer
-      flex-direction: column    
-      align-items: center
-      margin-bottom: 10px
-    &__phone  
-      position: absolute
-      top: -25px
-      left: 93px
 
+    &-text__phone
+    &-text
+      flex-direction: column
+  .main
+    &-text__title
+      font-size: 20px    
+  .feedback
+    text-align: center
+  .form
+    &__input:first-child
+      margin-right: 0
+      margin-bottom: 15px
+    .input-phone
+      margin-bottom: 10px  
+    &__button
+      width: 270px
+      margin: 10px auto
+      span
+        display: none 
+    &__footer::before
+        display: none
+    &__footer
+      display: flex
+      flex-direction: column
+      align-items: center
+
+
+      
+
+      
+          
+            
+
+  
    
     
     
