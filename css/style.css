@@ -343,24 +343,24 @@ template {
 
 @font-face {
   font-family: 'Museo Sans Light';
-  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.eot");
-  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.woff") format("woff"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.ttf") format("truetype");
+  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Museo Sans Medium';
-  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.eot");
-  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.woff") format("woff"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.ttf") format("truetype");
+  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.eot");
+  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Museo Sans Bold';
-  src: url("../repair/fonts/MuseoSansCirilMuseoSansCyrl-700.eot");
-  src: url("../repair/fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../repair/fonts/MuseoSansCirilMuseoSansCyrl-700.woff") format("woff"), url("../repair./fonts/MuseoSansCirilMuseoSansCyrl-700.ttf") format("truetype");
+  src: url("../fonts/MuseoSansCirilMuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirilMuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCirilMuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -563,9 +563,11 @@ template {
 .form__subtitle {
   display: block;
   margin-bottom: 50px;
+  font-family: 'Museo Sans Light', sans-serif;
 }
 
 .form__input {
+  font-family: 'Museo Sans Light', sans-serif;
   width: 270px;
   height: 65px;
   margin-bottom: 30px;
@@ -620,6 +622,7 @@ template {
 
 .form__callback {
   width: 224px;
+  font-family: 'Museo Sans Light', sans-serif;
 }
 
 .form__contacts {
@@ -886,7 +889,7 @@ template {
 
 .card__link {
   font-size: 16px;
-  font-family: 'Museo Sans Bold',sans-serif;
+  font-family: 'Museo Sans Light';
   text-decoration: none;
   color: #333;
   display: inline-block;
